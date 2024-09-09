@@ -4,8 +4,8 @@
 // ? A piece of code that can be reused in the future
 
 // ? declaring a function
-function logger() {
-  console.log("Logged");
+function logger(log) {
+  console.log(log);
 }
 
 function fruitProcessor(apples, oranges) {
@@ -14,7 +14,7 @@ function fruitProcessor(apples, oranges) {
 }
 
 // ? calling / running / invoking a function
-logger();
+logger("Hello World");
 
 const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice);

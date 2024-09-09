@@ -13,7 +13,3 @@ if (passTest) {
   hasDriveLicense = true;
   console.log("Hi I can drive");
 }
-
-// !Reserved word
-//! const interface = "audio";
-//! const private = 553
